@@ -148,7 +148,6 @@
 
 		<config-description>
 
-
 			<parameter-group name="telnetSettings">
 				<label>Telnet Settings</label>
 				<description>Settings for the Telnet port of the matrix switch.</description>
@@ -166,7 +165,6 @@
 				<label>Hostname</label>
 				<description>Hostname or IP address of the device</description>
 			</parameter>
-
 			<parameter name="refreshInterval" type="integer">
 				<label>Refresh Interval</label>
 				<description>Time in seconds to poll the switch for updates.</description>
@@ -215,7 +213,6 @@
 				<default></default>
 				<advanced>true</advanced>
 			</parameter>
-
 
 		</config-description>
 	</thing-type>
