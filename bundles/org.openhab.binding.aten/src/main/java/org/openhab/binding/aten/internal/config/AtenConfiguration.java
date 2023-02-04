@@ -80,5 +80,4 @@ public class AtenConfiguration {
     public String getProfileNames() {
         return profileNames;
     }
-
 }
