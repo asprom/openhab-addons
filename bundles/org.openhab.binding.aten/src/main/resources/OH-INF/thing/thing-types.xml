@@ -231,26 +231,6 @@
 		<item-type>String</item-type>
 		<label>Load Profile</label>
 		<description>Select and load the profile to run the switch.</description>
-		<state>
-			<options>
-				<option value="1">PROFILE 1</option>
-				<option value="2">PROFILE 2</option>
-				<option value="3">PROFILE 3</option>
-				<option value="4">PROFILE 4</option>
-				<option value="5">PROFILE 5</option>
-				<option value="6">PROFILE 6</option>
-				<option value="7">PROFILE 7</option>
-				<option value="8">PROFILE 8</option>
-				<option value="9">PROFILE 9</option>
-				<option value="10">PROFILE 10</option>
-				<option value="11">PROFILE 11</option>
-				<option value="12">PROFILE 12</option>
-				<option value="13">PROFILE 13</option>
-				<option value="14">PROFILE 14</option>
-				<option value="15">PROFILE 15</option>
-				<option value="16">PROFILE 16</option>
-			</options>
-		</state>
 	</channel-type>
 
 
@@ -295,18 +275,6 @@
 		<item-type>String</item-type>
 		<label>Input Source</label>
 		<description>Select the input source for this zone of the matrix switch.</description>
-		<state>
-			<options>
-				<option value="1">INPUT 1</option>
-				<option value="2">INPUT 2</option>
-				<option value="3">INPUT 3</option>
-				<option value="4">INPUT 4</option>
-				<option value="5">INPUT 5</option>
-				<option value="6">INPUT 6</option>
-				<option value="7">INPUT 7</option>
-				<option value="8">INPUT 8</option>
-			</options>
-		</state>
 	</channel-type>
 
 </thing:thing-descriptions>
