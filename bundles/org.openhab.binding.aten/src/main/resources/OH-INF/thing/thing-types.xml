@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="aten"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:thing="https://openhab.org/schemas/thing-description/v1.0.0"
+	xsi:schemaLocation="https://openhab.org/schemas/thing-description/v1.0.0 https://openhab.org/schemas/thing-description-1.0.0.xsd">
+
+
+	<thing-type id="hdmiMatrixSwitch">
+
+		<label>Aten Binding Thing</label>
+		<description>Control the Aten HDMI Matrix switch.</description>
+
+		<channel-groups>
+			<channel-group typeId="generalChannelGroupType" id="general">
+				<label>General Control</label>
+				<description>Global channels to control the switch.</description>
+			</channel-group>
+			<channel-group id="zone1" typeId="outputZone">
+				<label>Zone 1 Control</label>
+				<description>Channels for output zone1 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone2" typeId="outputZone">
+				<label>Zone 2 Control</label>
+				<description>Channels for output zone2 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone3" typeId="outputZone">
+				<label>Zone 3 Control</label>
+				<description>Channels for output zone3 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone4" typeId="outputZone">
+				<label>Zone 4 Control</label>
+				<description>Channels for output zone4 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone5" typeId="outputZone">
+				<label>Zone 5 Control</label>
+				<description>Channels for output zone5 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone6" typeId="outputZone">
+				<label>Zone 6 Control</label>
+				<description>Channels for output zone6 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone7" typeId="outputZone">
+				<label>Zone 7 Control</label>
+				<description>Channels for output zone7 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone8" typeId="outputZone">
+				<label>Zone 8 Control</label>
+				<description>Channels for output zone8 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone9" typeId="outputZone">
+				<label>Zone 9 Control</label>
+				<description>Channels for output zone9 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone10" typeId="outputZone">
+				<label>Zone 10 Control</label>
+				<description>Channels for output zone10 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone11" typeId="outputZone">
+				<label>Zone 11 Control</label>
+				<description>Channels for output zone11 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone12" typeId="outputZone">
+				<label>Zone 12 Control</label>
+				<description>Channels for output zone12 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone13" typeId="outputZone">
+				<label>Zone 13 Control</label>
+				<description>Channels for output zone13 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone14" typeId="outputZone">
+				<label>Zone 14 Control</label>
+				<description>Channels for output zone14 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone15" typeId="outputZone">
+				<label>Zone 15 Control</label>
+				<description>Channels for output zone15 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone16" typeId="outputZone">
+				<label>Zone 16 Control</label>
+				<description>Channels for output zone16 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone17" typeId="outputZone">
+				<label>Zone 17 Control</label>
+				<description>Channels for output zone17 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone18" typeId="outputZone">
+				<label>Zone 18 Control</label>
+				<description>Channels for output zone18 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone19" typeId="outputZone">
+				<label>Zone 19 Control</label>
+				<description>Channels for output zone19 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone20" typeId="outputZone">
+				<label>Zone 20 Control</label>
+				<description>Channels for output zone20 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone21" typeId="outputZone">
+				<label>Zone 21 Control</label>
+				<description>Channels for output zone21 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone22" typeId="outputZone">
+				<label>Zone 22 Control</label>
+				<description>Channels for output zone22 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone23" typeId="outputZone">
+				<label>Zone 23 Control</label>
+				<description>Channels for output zone23 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone24" typeId="outputZone">
+				<label>Zone 24 Control</label>
+				<description>Channels for output zone24 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone25" typeId="outputZone">
+				<label>Zone 25 Control</label>
+				<description>Channels for output zone25 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone26" typeId="outputZone">
+				<label>Zone 26 Control</label>
+				<description>Channels for output zone26 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone27" typeId="outputZone">
+				<label>Zone 27 Control</label>
+				<description>Channels for output zone27 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone28" typeId="outputZone">
+				<label>Zone 28 Control</label>
+				<description>Channels for output zone28 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone29" typeId="outputZone">
+				<label>Zone 29 Control</label>
+				<description>Channels for output zone29 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone30" typeId="outputZone">
+				<label>Zone 30 Control</label>
+				<description>Channels for output zone30 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone31" typeId="outputZone">
+				<label>Zone 31 Control</label>
+				<description>Channels for output zone31 of this HDMI matrix switch.</description>
+			</channel-group>
+			<channel-group id="zone32" typeId="outputZone">
+				<label>Zone 32 Control</label>
+				<description>Channels for output zone32 of this HDMI matrix switch.</description>
+			</channel-group>
+		</channel-groups>
+
+
+		<config-description>
+
+			<parameter-group name="telnetSettings">
+				<label>Telnet Settings</label>
+				<description>Settings for the Telnet port of the matrix switch.</description>
+				<advanced>true</advanced>
+			</parameter-group>
+
+			<parameter-group name="displaySettings">
+				<label>Display Name Settings</label>
+				<description>Settings for option name lists for input to the matrix switch.</description>
+				<advanced>true</advanced>
+			</parameter-group>
+
+			<parameter name="hostname" type="text" required="true">
+				<context>network-address</context>
+				<label>Hostname</label>
+				<description>Hostname or IP address of the device</description>
+			</parameter>
+			<parameter name="refreshInterval" type="integer">
+				<label>Refresh Interval</label>
+				<description>Time in seconds to poll the switch for updates.</description>
+				<default>60</default>
+				<advanced>true</advanced>
+			</parameter>
+			<parameter name="username" type="text" required="true">
+				<context>username</context>
+				<label>Username</label>
+				<description>Username used for login.</description>
+			</parameter>
+			<parameter name="password" type="text" required="true">
+				<context>password</context>
+				<label>Password</label>
+				<description>Password to access the device</description>
+			</parameter>
+			<parameter name="numberOfInputSources" type="integer" required="true">
+				<label>Number of HDMI Input Sources</label>
+				<description>Number of HDMI inputs this switch supports.</description>
+			</parameter>
+			<parameter name="numberOfOutputZones" type="integer" required="true">
+				<label>Number of HDMI Output Zones</label>
+				<description>Number of HDMI outputs zones this switch supports.</description>
+			</parameter>
+
+
+
+			<parameter name="telnetPort" type="integer" groupName="telnetSettings">
+				<label>Telnet Port</label>
+				<description>Telnet port used for communication. Normally shouldn't be changed.</description>
+				<default>23</default>
+				<advanced>true</advanced>
+			</parameter>
+
+
+			<parameter name="inputNames" type="text" groupName="displaySettings">
+				<label>Name Input Sources</label>
+				<description>Name of the input sources as comma separated list.</description>
+				<default></default>
+				<advanced>true</advanced>
+			</parameter>
+
+			<parameter name="profileNames" type="text" groupName="displaySettings">
+				<label>Name Profiles</label>
+				<description>Name of the predefined profiles as comma separated list.</description>
+				<default></default>
+				<advanced>true</advanced>
+			</parameter>
+
+		</config-description>
+	</thing-type>
+
+
+	<channel-group-type id="generalChannelGroupType">
+		<label>General Control</label>
+		<description>Global channels to control the switch.</description>
+		<channels>
+			<channel id="profile" typeId="profileChannelType"/>
+		</channels>
+	</channel-group-type>
+
+
+	<channel-type id="profileChannelType">
+		<item-type>String</item-type>
+		<label>Load Profile</label>
+		<description>Select and load the profile to run the switch.</description>
+	</channel-type>
+
+
+	<channel-group-type id="outputZone">
+		<label>Zone Control</label>
+		<description>Channels for an output zone of this matrix switch.</description>
+		<channels>
+			<channel id="mute" typeId="mute"/>
+			<channel id="input" typeId="input"/>
+			<channel id="video" typeId="video"/>
+			<channel id="audio" typeId="audio"/>
+			<channel id="cec" typeId="cec"/>
+		</channels>
+	</channel-group-type>
+
+	<channel-type id="mute">
+		<item-type>Switch</item-type>
+		<label>Mute</label>
+		<description>Enable/Disable Mute on this zone of the matrix switch.</description>
+	</channel-type>
+
+	<channel-type id="video">
+		<item-type>Switch</item-type>
+		<label>Video</label>
+		<description>Enable/Disable video signal on this zone of the matrix switch.</description>
+	</channel-type>
+
+	<channel-type id="audio">
+		<item-type>Switch</item-type>
+		<label>Audio</label>
+		<description>Enable/Disable audio signal on this zone of the matrix switch. This is the inverted state of the mute
+			command.</description>
+	</channel-type>
+
+	<channel-type id="cec">
+		<item-type>Switch</item-type>
+		<label>CEC</label>
+		<description>Enable/Disable Consumer Electronics Control (CEC) on this output of the matrix switch.</description>
+	</channel-type>
+
+	<channel-type id="input">
+		<item-type>String</item-type>
+		<label>Input Source</label>
+		<description>Select the input source for this zone of the matrix switch.</description>
+	</channel-type>
+
+</thing:thing-descriptions>
